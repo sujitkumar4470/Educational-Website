@@ -1,0 +1,126 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: #433878;
+}
+.head{
+    /* height: 50px; */
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.contact{
+    width: 170px;
+    display: flex;
+    padding: 25px 20px;
+    color: white;
+    justify-content: space-between;
+}
+.head-info{
+    display: flex;
+}
+.mail{
+    width: 200px;
+    display: flex;
+    padding: 20px;
+    color: white;
+    justify-content: space-between;
+}
+.mail .mail-icon{
+    padding: 5px;
+}
+.mail .mail-text a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    top: -20px;
+}
+.social{
+    width: 240px;
+    color: white;
+    padding: 23px;
+    display: flex;
+}
+.social i{
+    padding: 5px 20px;
+    
+}
+.login{
+    width: 200px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.login a{
+    color: white;
+    text-decoration: none;
+}
+.vline{
+    border-right: 0.1px solid white;
+    padding-left: 10px;
+}
+
+
+
+nav {
+    background-color: #7E60BF; 
+    padding: 5px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-img{
+    height: 80px;
+    width: 80px;
+    margin: auto;
+    border-radius: 50%;
+    font-size: 40px;
+}
+.school-name {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    background-color: #FFD700;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 25px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #FFD700; 
+}
+
+.information{
+    background-color: #433878;
+    height: 50px;
+}
+.about{
+    text-align: center;
+    color: white;
+}
+
+
+
+
